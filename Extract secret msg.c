@@ -121,7 +121,7 @@ int main()
     Image *ppm;
     ppm = read_PPM("DennisRitchie.ppm");
     change(ppm);
-    write_PPM(ppm,"test42.ppm");
+    write_PPM(ppm,"SecretMsg.ppm");
     free_image(ppm);
     printf(".......");
     return 0;
